@@ -1,0 +1,151 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+\colorlet{awesome}{awesome-red}
+
+%%% ATS-friendly PDF setup
+\usepackage[pdftex]{hyperref}
+\hypersetup{
+    pdftitle={Patricio Toledo - Frontend Engineer},
+    pdfauthor={Patricio Toledo},
+    pdfsubject={Resume},
+    pdfkeywords={Frontend Engineer, React, JavaScript, TypeScript, Node.js},
+    colorlinks=false,
+    pdfborder={0 0 0}
+}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Patricio} \headerlastnamestyle{Toledo} \\
+	\vspace{1mm}
+	\headerpositionstyle{Fullstack Software Engineer | React, Next.js, Node.js | Remote-first Developer} \\
+	\vspace{2mm}
+	{\faEnvelope\ contact@patriciotoledo.ar} | {\faMobile\ +542216790804} | {\faMapMarker\ Buenos Aires, Argentina} | {\faLink\ patriciotoledo.ar}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Work Experience}
+\begin{cventries}
+	\cventry
+	{Frontend Engineer}
+	{Bayview Asset Management}
+	{Remote}
+	{Apr 2022 – Present}
+	{\begin{cvitems}
+		\item {Achieved 45\% performance improvement by optimizing service initialization and implementing performance monitoring}
+		\item {Built comprehensive CI/CD pipeline with automated testing, PR performance reporting, and Lighthouse integration}
+		\item {Designed custom web worker proxy for local development enabling persistent mock server functionality}
+		\item {Implemented A/B testing framework with feature flags and analytics integration (Mixpanel, Statsig)}
+		\item {Led theming architecture redesign supporting authenticated/unauthenticated user experiences}
+		\item {Contributed to frontend migration from Bootstrap to Tailwind CSS improving maintainability}
+		\item {Enhanced development workflows with automated performance tracking and deployment reliability}
+	\end{cvitems}}
+	
+	\vspace{3mm}
+	
+	\cventry
+	{Fullstack Developer}
+	{Lease End}
+	{Remote}
+	{Nov 2020 – Apr 2022}
+	{\begin{cvitems}
+		\item {Built internal lease management platform using Next.js and Node.js for operations team}
+		\item {Developed advanced filtering and search capabilities for lease tracking}
+		\item {Implemented in-app notifications and basic analytics dashboard}
+		\item {Integrated GraphQL with Apollo Client for efficient data fetching and state management}
+		\item {Set up CI/CD pipelines with GitHub Actions for automated deployments}
+		\item {Enhanced user workflows reducing manual operations overhead}
+	\end{cvitems}}
+	
+	\vspace{3mm}
+	
+	\cventry
+	{Software Engineer}
+	{Univision}
+	{Remote}
+	{Feb 2018 – Nov 2020}
+	{\begin{cvitems}
+		\item {Built key features for Uforia streaming platform serving 5M+ users}
+		\item {Implemented Android Auto support and custom push notifications (iOS/Android)}
+		\item {Built CMS from scratch (Angular + Java Spring) for content management}
+		\item {Developed in-house feature flag system eliminating external dependencies}
+		\item {Reduced app loading times by 25\% by optimizing external API calls}
+		\item {Fixed critical bugs and improved overall user experience}
+		\item {Collaborated with product and QA teams delivering on tight deadlines}
+	\end{cvitems}}
+\end{cventries}
+
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Languages \& Frameworks:  & {\skill{ JavaScript, TypeScript, React, Next.js, Node.js, Express, HTML5, CSS3, Tailwind CSS, Rust}} \\
+		Databases \& APIs:  & {\skill{ PostgreSQL, MongoDB, SQL, GraphQL, REST APIs}} \\
+		DevOps \& Cloud:  & {\skill{ Docker, CI/CD, GitHub Actions, AWS, Google Cloud Platform (GCP), Linux, Git}} \\
+		Testing:  & {\skill{ Jest, Cypress, Playwright, Unit Testing, Integration Testing, End-to-End Testing}} \\
+		Workflow \& Methodologies:  & {\skill{ Agile, Scrum, Version Control, Code Review}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-5mm}
+
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{Bachelor's Degree in Systems Engineering - Computer Science \& Software Engineering}
+	{Universidad Tecnológica Nacional - Facultad Regional La Plata}
+	{La Plata, Buenos Aires, Argentina}
+	{2015 – 2020}
+	{}
+\end{cventries}
+
+\vspace{-5mm}
+
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{Cybersecurity dashboard for LATAM banks providing visibility into vulnerabilities, open ports, and risk metrics.}
+	{Sentrio}
+	{React, Cybersecurity, Styled-components, Data Visualization, Banking, Fullstack}
+	{https://sentrio.vercel.app}
+	{}
+	
+	\vspace{-3mm}
+	
+	\cventry
+	{High-performance image converter built with Next.js, Rust, and WebAssembly. Runs entirely in-browser with local processing, features a sleek, privacy-focused UI with near-native speed.}
+	{Wasmify.dev}
+	{Next.js, Rust, WebAssembly, Image Processing, Frontend, Privacy, WASM}
+	{https://wasmify.dev}
+	{}
+\end{cventries}
+
+\vspace{-2mm}
+\ 
+\end{document}
+
+
