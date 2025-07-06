@@ -1,11 +1,18 @@
-## Usage
+# Patricio Toledo - Resume
 
-To generate a PDF from this LaTeX code, navigate to this folder in a terminal and run:
+**Fullstack Software Engineer** specializing in React, Next.js, and Node.js
 
-    xelatex resume.tex
+## 📄 Current Resume
 
-## Requirements
+- **[View Resume (PDF)](https://github.com/redBaron23/resume/blob/master/resume.pdf)**
+- **[Download PDF](https://raw.githubusercontent.com/redBaron23/resume/master/resume.pdf)**
 
-You will need to have `xelatex` installed on your machine.
+## 🛠️ Technical Details
 
-Alternatively, you can use a site like [ShareLaTeX](https://sharelatex.com) to build and edit your LaTeX instead.
+Built with LaTeX using the [Awesome CV](https://github.com/posquit0/Awesome-CV) template.
+
+### Build Instructions
+
+```bash
+xelatex resume.tex
+```
