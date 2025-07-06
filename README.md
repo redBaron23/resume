@@ -4,8 +4,8 @@
 
 ## 📄 Current Resume
 
-- **[View Resume (PDF)](https://github.com/redBaron23/resume/blob/master/resume.pdf)**
-- **[Download PDF](https://raw.githubusercontent.com/redBaron23/resume/master/resume.pdf)**
+- **[View Resume (PDF)](https://github.com/redBaron23/resume/blob/master/Patricio_Toledo_Resume_2025.pdf)**
+- **[Download PDF](https://raw.githubusercontent.com/redBaron23/resume/master/Patricio_Toledo_Resume_2025.pdf)**
 
 ## 🛠️ Technical Details
 
