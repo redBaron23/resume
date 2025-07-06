@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.7.5)  5 JUL 2025 23:44
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.7.5)  5 JUL 2025 23:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -578,9 +578,7 @@ Overfull \hbox (148.70068pt too wide) in paragraph at lines 111--111
 
 [1
 
-]
-
-[2] (./resume.aux)
+] (./resume.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -597,4 +595,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  101i,15n,120p,546b,454s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on resume.pdf (2 pages).
+Output written on resume.pdf (1 page).
